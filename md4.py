@@ -108,6 +108,6 @@ def md4(message):
     return hash.hex()
 
 
-message = b"The quick"
+message = b""
 result = md4(message)
 print(result)
